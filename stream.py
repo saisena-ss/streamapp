@@ -6,7 +6,7 @@ import os
 def load_data():
     folder = os.getcwd()
     # Load your Excel file here
-    data = pd.read_excel(folder+'/2024 PROJECTIONS.xlsx')
+    data = pd.read_excel(folder+'/sample.xlsx')
     return data
 
 # Load the data only once during deployment
