@@ -4,5 +4,5 @@ import os
 
 folder = os.getcwd()
 print(folder)
-df = pd.read_excel(folder+'/2024PROJECTIONS.xlsx')
+df = pd.read_excel(folder+'/2024 PROJECTIONS.xlsx')
 st.dataframe(df)
